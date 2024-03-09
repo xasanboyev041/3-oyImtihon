@@ -1,0 +1,28 @@
+main .wrapper-site_main {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
+main .wrapper-site_main h2 {
+  font-weight: 600;
+  line-height: 36px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-bottom: 32px;
+}
+main .wrapper-site_main h3 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+main .wrapper-site_main p {
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding-top: 16px;
+  padding-bottom: 46px;
+}/*# sourceMappingURL=main.css.map */

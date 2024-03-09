@@ -1,0 +1,82 @@
+header .wrapper-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo h1 {
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 30px;
+  color: #fff;
+  padding-left: 16px;
+}
+header ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 24px;
+}
+header ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+header .wrapper-button {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .wrapper-button .in-button {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 10px 22px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background-color: rgb(31, 46, 53);
+  color: rgb(255, 255, 255);
+}
+header .wrapper-button .up-button {
+  font-weight: 600px;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 10px 22px;
+  background-color: rgb(2, 137, 122);
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+header .bars {
+  display: none;
+}
+@media (max-width: 1200px) {
+  header ul {
+    gap: 10px;
+  }
+  header .wrapper-button {
+    gap: 10px;
+  }
+}
+@media (max-width: 950px) {
+  header ul {
+    display: none;
+  }
+  header .wrapper-button {
+    gap: 10px;
+  }
+}
+@media (max-width: 700px) {
+  header .wrapper-button {
+    display: none;
+  }
+  header .bars {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=header.css.map */
