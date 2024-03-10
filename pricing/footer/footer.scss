@@ -1,0 +1,104 @@
+footer {
+    margin-right: 145px;
+    margin-left: 145px;
+    ul {
+        list-style: none;
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: none;
+        
+
+
+    }
+    .recourse {
+        font-weight: 500;
+        line-height: 30px;
+        font-size: 20px;
+
+
+    }
+    .wrapper-footer {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
+        margin-top: 167px;
+        gap: 30px;
+    }
+    .end-footer {
+        p {
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0px;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 1);
+        }
+        img {
+            margin-top: 34px;
+            margin-bottom: 21px;
+        }
+        .sign {
+            background-color: rgba(2, 137, 122, 1);
+            color: rgba(255, 255, 255, 1);
+            padding: 8px 15px;
+            border-radius: 8px;
+            border: none;
+
+            
+
+        }
+
+            
+      
+    }
+    .made {
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 29px;
+
+
+    }
+    @media (max-width: 1250px) {
+        .wrapper-footer {
+            
+        
+        display: grid;
+        grid-template-columns: auto auto auto;
+        }
+    }
+    @media (max-width: 850px) {
+        .wrapper-footer {
+            
+       
+        display: grid;
+        grid-template-columns: auto auto;
+        }
+    }
+    @media (max-width: 600px) {
+        .wrapper-footer {
+            
+        
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        .end-footer {
+            text-align: center;
+        }
+        }
+    }
+   
+}

@@ -1,0 +1,52 @@
+section .wrapper-section {
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 auto;
+}
+section .wrapper-section h3 {
+  font-weight: 700;
+  line-height: 51px;
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+  margin-top: 152px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+section .wrapper-section .clear {
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+section .wrapper-section .option {
+  display: flex;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgb(71, 71, 71);
+  margin-bottom: 16px;
+}
+section .wrapper-section .option img {
+  padding-right: 10px;
+}
+section .wrapper-section .option p {
+  font-weight: 500;
+  line-height: 27px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+section .wrapper-section .after {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(71, 71, 71);
+  padding-bottom: 24px;
+}
+section .wrapper-section .plan {
+  font-weight: 500;
+  line-height: 27px;
+  font-size: 18px;
+  color: rgb(34, 52, 61);
+}/*# sourceMappingURL=section.css.map */

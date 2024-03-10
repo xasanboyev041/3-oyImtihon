@@ -1,6 +1,8 @@
 @import url(../header/header.css);
 @import url(../main/main.css);
 @import url(../footer/footer.css);
+@import url(../section/section.css);
+@import url(../aside/aside.css);
 * {
   margin: 0;
   padding: 0;
@@ -8,31 +10,19 @@
   font-family: sans-serif;
   background-color: rgb(31, 46, 53);
 }
-.container {
-    padding-right: 145px;
+
+.container { 
     padding-left: 145px;
-}
-@media (max-width:1200px) {
-    .container {
-        padding-right: 70px;
-        padding-left: 70px;
-    }
-    
-    
-}
-@media (max-width:950px) {
-    .container {
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-    
-    
-}
-@media (max-width:700px) {
-    .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    
-    
-}
+    padding-right: 145px;
+
+ }
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=global.css.map */
